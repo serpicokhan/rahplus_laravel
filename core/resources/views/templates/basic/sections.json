@@ -1,0 +1,267 @@
+{
+    "banner": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Banner Section",
+        "description": "Showcase promotional banners with images, headings, and subheadings.",
+        "icon": "las la-image",
+        "content": {
+            "images": {
+                "background_image": {
+                    "size": "1920x1810"
+                },
+                "image": {
+                    "size": "1134x1256"
+                }
+            },
+            "heading": "text",
+            "button_one_text": "text",
+            "button_one_icon": "icon",
+            "button_one_link": "text",
+            "button_two_text": "text",
+            "button_two_icon": "icon",
+            "button_two_link": "text"
+        }
+    },
+    "feature": {
+        "builder": true,
+        "name": "Feature Section",
+        "icon": "las la-info-circle",
+        "description": "Showcase customizable feature section images, titles, subtitles, and optional video.",
+        "content": {
+            "heading": "text",
+            "images": {
+                "image_one": {
+                    "size": "672x300"
+                },
+                "image_two": {
+                    "size": "324x300"
+                },
+                "image_three": {
+                    "size": "324x300"
+                }
+            }
+        },
+        "element": {
+            "heading": "text",
+            "subheading": "text",
+            "images": {
+                "icon_image": {
+                    "size": "32x32"
+                }
+            },
+            "modal": true
+        }
+    },
+    "ride": {
+        "builder": true,
+        "name": "Ride Section",
+        "icon": "las la-info-circle",
+        "description": "Showcase customizable booking section images, titles, subtitles, and elements.",
+        "content": {
+            "heading": "text",
+            "images": {
+                "image": {
+                    "size": "896x811"
+                }
+            }
+        },
+        "element": {
+            "heading": "text",
+            "subheading": "text",
+            "modal": true
+        }
+    },
+    "vehicle": {
+        "builder": true,
+        "name": "Vehicle Section",
+        "icon": "las la-car",
+        "description": "Showcase customizable vehicle service and more.",
+        "content": {
+            "heading": "text"
+        },
+        "element": {
+            "title": "text",
+            "url": "text",
+            "images": {
+                "image": {
+                    "size": "672x465"
+                }
+            },
+            "modal": true
+        }
+    },
+    "policy_pages": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Policy Pages",
+        "description": "Manage and display your legal and policy-related information pages.",
+        "icon": "las la-file-alt",
+        "hide_builder": true,
+        "element": {
+            "title": "text",
+            "slug": "title",
+            "details": "textarea-nic",
+            "modal": false,
+            "seo": true
+        }
+    },
+    "faq": {
+        "builder": true,
+        "name": "FAQ Section",
+        "icon": "las la-info",
+        "description": "Answer frequently asked questions for users in an organized format.",
+        "content": {
+            "heading": "text"
+        },
+        "element": {
+            "question": "text",
+            "answer": "textarea",
+            "modal": true
+        }
+    },
+    "blog": {
+        "builder": true,
+        "name": "Blog Section",
+        "description": "Share and showcase your latest blog posts with readers.",
+        "icon": "las la-blog",
+        "content": {
+            "heading": "text"
+        },
+        "element": {
+            "images": {
+                "image": {
+                    "size": "1012x575",
+                    "thumb": "440x250"
+                }
+            },
+            "title": "text",
+            "slug": "title",
+            "description": "textarea-nic",
+            "modal": false,
+            "seo": true
+        }
+    },
+    "social_icon": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Social Icons",
+        "description": "Connect and link your website seamlessly to all social media profiles.",
+        "icon": "las la-share-alt",
+        "element": {
+            "social_icon": "icon",
+            "url": "text",
+            "modal": true
+        }
+    },
+    "contact_us": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Contact Us",
+        "description": "Provide your contact details for user inquiries and support.",
+        "icon": "las la-phone",
+        "content": {
+            "images": {
+                "background_image": {
+                    "size": "1920x1052"
+                }
+            },
+            "title": "text",
+            "subtitle": "text",
+            "form_title": "text",
+            "form_subtitle": "text",
+            "email": "text",
+            "mobile_number": "text",
+            "location": "text",
+            "map_link": "text"
+        }
+    },
+    "mobile_app": {
+        "builder": true,
+        "no_selection": false,
+        "name": "Mobile App Section",
+        "description": "Showcase and provide download options for our mobile application, available on Google Play and the App Store.",
+        "icon": "la la-mobile",
+        "content": {
+            "images": {
+                "background_image": {
+                    "size": "1920x750"
+                },
+                "image": {
+                    "size": "778x658"
+                }
+            },
+            "heading": "text",
+            "button_one_text": "text",
+            "button_one_url": "text",
+            "button_one_icon": "icon",
+            "button_two_text": "text",
+            "button_two_url": "text",
+            "button_two_icon": "icon"
+        },
+        "element": {
+            "service_name": "text",
+            "modal": true
+        }
+    },
+    "testimonial": {
+        "builder": true,
+        "no_selection": false,
+        "name": "Testimonial Section",
+        "description": "Display client testimonials, including ratings and feedback to build trust and credibility.",
+        "icon": "la la-quote-left",
+        "content": {
+            "heading": "text"
+        },
+        "element": {
+            "images": {
+                "client_image": {
+                    "size": "456x642"
+                }
+            },
+            "name": "text",
+            "designation": "text",
+            "title": "text",
+            "message": "textarea",
+            "modal": true
+        }
+    },
+    "counter": {
+        "builder": true,
+        "name": "Counter Section",
+        "description": "Show important statistical data using visual counters and icons.",
+        "icon": "las la-calculator",
+        "element": {
+            "title": "text",
+            "count": "text",
+            "abbreviation": "text",
+            "images": {
+                "icon_image": {
+                    "size": "48x48"
+                }
+            },
+            "modal": true
+        }
+    },
+    "footer": {
+        "builder": true,
+        "no_selection": true,
+        "description": "Customize your footer section content including short description, policy link and more.",
+        "icon": "las la-calculator",
+        "name": "Footer",
+        "content": {
+            "images": {
+                "play_store_image": {
+                    "size": "165x48"
+                },
+                "app_store_image": {
+                    "size": "165x48"
+                }
+            },
+            "heading": "text",
+            "play_store_link": "text",
+            "app_store_link": "text",
+            "short_description": "textarea"
+        }
+    }
+}

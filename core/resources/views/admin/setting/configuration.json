@@ -1,0 +1,80 @@
+{
+    "registration": {
+        "title": "Rider registration",
+        "icon": "las la-user-plus",
+        "description_enabled": "Enable this feature to restrict new registrations, allowing only pre-approved riders.",
+        "description_disabled": "Disable this feature to allow the system to freely accept new rider registrations without restrictions."
+    },
+    "driver_registration": {
+        "title": "Driver registration",
+        "icon": "las la-user-plus",
+        "description_enabled": "Enable this feature to restrict new registrations, allowing only pre-approved drivers.",
+        "description_disabled": "Disable this feature to allow the system to freely accept new driver registrations without restrictions."
+    },
+    "google_login": {
+        "title": "Google Login",
+        "icon": "lab la-google",
+        "description_enabled": "Enable Google Login to allow users to quickly sign in using their Google account, streamlining the registration process.",
+        "description_disabled": "Disable Google Login to require users to sign in with other methods, such as email and password, for added flexibility in account creation."
+    },
+    "apple_login": {
+        "title": "Apple Login",
+        "icon": "lab la-apple",
+        "description_enabled": "Enable Apple Login to allow users to quickly sign in using their Apple account, streamlining the registration process.",
+        "description_disabled": "Disable Apple Login to require users to sign in with other methods, such as email and password, for added flexibility in account creation."
+    },
+    "sn": {
+        "title": "Sms notification",
+        "icon": "las la-sms",
+        "description_enabled": "Enable this feature to send SMS notifications for system updates and alerts.",
+        "description_disabled": "Disable this feature to completely prevent any sms notifications from being sent by the system."
+    },
+    "en": {
+        "title": "Email notification",
+        "icon": "las la-envelope-open-text",
+        "description_enabled": "Enable this feature to send email notifications for important events and updates.",
+        "description_disabled": "Disable this feature to completely prevent any email notifications from being sent by the system."
+    },
+    "pn": {
+        "title": "Push notification",
+        "icon": "las la-bell",
+        "description_enabled": "Enable this feature to send push notifications for important updates and alerts.",
+        "description_disabled": "Disable this feature to completely prevent any push notifications from being sent by the system."
+    },
+    "force_ssl": {
+        "title": "Force SSL",
+        "icon": "las la-lock",
+        "description_enabled": "Enable this feature to secure all user communications with encryption for privacy.",
+        "description_disabled": "Disable this feature to allow users to access the platform without requiring secure connections."
+    },
+    "agree": {
+        "title": "Agree policy",
+        "icon": "las la-file-alt",
+        "description_enabled": "Enable this feature to require users to actively agree to the platform policies during the sign-up process.",
+        "description_disabled": "Disable this feature to skip policy agreement during the registration process."
+    },
+    "secure_password": {
+        "title": "Force secure password",
+        "icon": "las la-key",
+        "description_enabled": "Enable this feature to enforce strong passwords during registration and updates.",
+        "description_disabled": "Disable this feature to allow users to create and set weak passwords for their accounts."
+    },
+    "ev": {
+        "title": "Email verification",
+        "icon": "las la-envelope",
+        "description_enabled": "Enable this feature to require users to complete email verification before they can access the system.",
+        "description_disabled": "Disable this feature to allow users to access the system without the need to verify their email addresses."
+    },
+    "sv": {
+        "title": "Mobile verification",
+        "icon": "las la-mobile-alt",
+        "description_enabled": "Enable this feature to require users to verify their mobile number in order to gain access to the system.",
+        "description_disabled": "Disable this feature to allow users to access the system without the need to verify their mobile number."
+    },
+    "multi_language": {
+        "title": "Language option",
+        "icon": "las la-globe",
+        "description_enabled": "Enable this feature to allow users to easily switch between different  languages according to their preferences.",
+        "description_disabled": "Disable this feature to remove all language switching options for users within the application."
+    }
+}
